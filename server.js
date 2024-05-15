@@ -16,6 +16,6 @@ app.use(express.json())
 app.use('/', homeRoutes)
 app.use('/todos', todoRoutes)
  
-app.listen(process.env.PORT, ()=>{
+app.listen(process.env.PORT || PORT, ()=>{
     console.log('Server is running, you better catch it!')
 })    
