@@ -1,0 +1,30 @@
+h1{
+    color: red;
+}
+.completed{
+    text-decoration: line-through;
+    color: gray;
+}
+.not{
+    text-decoration: underline;
+}
+
+.topMargin{
+    margin-top: 10px;
+}
+
+/* light theme style*/
+section {
+    width: 50%; /* Adjust the width as necessary */
+    margin: 0 auto; /* Centers the section horizontally */
+    background-color: #f8f8f8; /* Just for better visibility */
+    padding: 20px; /* Padding around the content inside the section */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+/* Dark theme style */
+html[data-bs-theme="dark"] section {
+    background-color: #383F45; /* dark background */
+    color: #fff; /* white text */
+}
+
